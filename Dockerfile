@@ -27,4 +27,4 @@ USER docker
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
-CMD ["start.sh"]
+CMD ["/bin/bash", "/start.sh"]
